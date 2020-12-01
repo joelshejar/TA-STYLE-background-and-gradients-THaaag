@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    margin: 0;
+    line-height: 1.3;
+    background-color: rgb(5, 5, 41);
+
+}
+.container{
+    max-width: 1400px;
+    margin: 0 120px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.header{
+    height: 170px;
+    background-color:  rgb(3, 3, 48);
+    padding: 20px 0;
+}
+.dashboard h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.dashboard p{
+    color: rgb(151, 151, 197);
+    font-weight: 300;
+}
+.dark p{
+    color: rgb(151, 151, 197);
+    font-weight: 300;
+}
+.mode{
+    height: 18px;
+    width: 45px;
+    background-color: aquamarine;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+.circle{
+    height: 14px;
+    width: 14px;
+    background-color: rgb(5, 5, 41);
+    border-radius: 50%;
+    margin-top: 2.5px;
+    margin-left: 2px;
+}
+.card{
+    margin-bottom: -160px;
+    height: 200px;
+}
+.one{
+    width: 23%;
+    background-color: rgb(7, 7, 73);
+    margin-top: 40px;
+}
+.nathan{
+    text-align: center;
+    color: rgb(170, 170, 209);
+    padding-bottom: 20px;
+}
+.nathan a{
+    color: rgb(37, 130, 170);
+}
+.followers{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.followers h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+.followers p{
+    color: rgb(170, 170, 209);
+
+}
+.today{
+    color: green;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.today a{
+    margin-top: 10px;
+}
+.up i{
+    color: green;
+
+}
+.up{
+    padding-top: 8px;
+}
+.line{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 4px;
+    background-color:rgb(37, 130, 170);
+}
+.insta{
+    background: linear-gradient(to right top, rgb(255, 208, 0), rgb(189, 79, 152));
+}
+.gram i{
+    background: linear-gradient(to right top, rgb(255, 208, 0), rgb(189, 79, 152));
+}
+.you{
+    background-color: red;
+}
+.tube i{
+    color: red;
+}
+.loss{
+    color: red;
+}
+.down i{
+    color: red;
+}
+.overview{
+    margin-top: 130px;
+    margin-bottom: 40px;
+}
+.overview h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.today h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.two{
+    height: 130px;
+   
+}
+.nathanf{
+    padding: 10px;
+}
+.span{
+    padding: 10px;
+}
+.section{
+    margin-top: 156px;
+    margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
